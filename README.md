@@ -61,6 +61,7 @@ What we need to do is head back to that page and change the source branch from *
 
 
 A few things to consider:
+-   Committing code to the master branch isn't enough for your page to accept changes. Seeing as the static files in the **gh-pages** branch is what actually powers the web page, those static files need to be updated. There's a bunch of ways to do this but the simplest way is to run the **deploy** command again.
 -   Changes to your GitHub page can sometimes take a few minutes to take effect, so remember to be patient (after all... it is a free service 😉).
 -   It is also possible to change the source branches to be whatever branch you choose with a little tweaking, this is just a basic guide to get it working.
 -   It is definitely possible (and quite common) to create a dynamic single page web application (SPA) on GitHub pages, however mobile devices may not display content as expected due to relying on JavaScript.
