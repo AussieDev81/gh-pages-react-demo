@@ -6,16 +6,16 @@
     If you don't already have a react app, you can find all the information required at [reactjs.org](https://reactjs.org/docs/create-a-new-react-app.html "Create react app")
 2.  Go to the repository settings page, then select **Pages** 
 
-    ![Go to pages menu](img\pages.JPG)
+    ![Go to pages menu](img/pages.JPG)
 
 3.  Change the source branch from **None** to **Master** (or main) and press **Save**.
 We'll change this again in the last step, but for now we need to set it to master so we can get the URL
 
-    ![changing source to master](img\change-branch-to-master.JPG)
+    ![changing source to master](img/change-branch-to-master.JPG)
 
     You should now see your GitHub Pages URL for the current repository... We need to copy this link
 
-    ![GitHub Pages URL example](img\after-save.JPG)
+    ![GitHub Pages URL example](img/after-save.JPG)
 
 4.  Back in your react app, navigate to your project's **package.json** file and (towards the top) add the GitHub pages URL
 
@@ -51,11 +51,11 @@ We'll change this again in the last step, but for now we need to set it to maste
 7.  Now that we've got everything plumbed in, we should be able to run command ```npm run deploy```. 
 
     This action will add a **build** folder to your project which will contain the static files that GitHub Pages requires, but also publish the new deployment branch (gh-pages) that we declared in the last step
-    ![new gh-pages branch](img\new-branch.JPG)
+    ![new gh-pages branch](img/new-branch.JPG)
 
 8.  If you go to your GitHub Pages web page, you'll notice that the react app's README file is being shown. This is because in step 3 we set the source branch to be **Master** so we could get the page URL, but the master branch contains our source code, not the static content we need.
 What we need to do is head back to that page and change the source branch from **master** to our new **gh-pages** branch that we created in the last step.
-![Changed the source branch from master to gh-pages](img\source-branch-changed.JPG)
+![Changed the source branch from master to gh-pages](img/source-branch-changed.JPG)
 
 **And that's it!**
 
