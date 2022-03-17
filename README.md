@@ -1,4 +1,4 @@
-# gh-pages-react-demo
+# gh-pages-react-demo HOOK TEST
 ## A guide for hosting a react app on GitHub Pages
 
 1.  Create a react app in a new github repo and publish your project to GitHub
